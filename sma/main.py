@@ -88,11 +88,11 @@ class Agent:
             case "infecté":
                 couleur = (255, 0, 0)
             case "mort":
-                couleur = (0, 0, 0)
+                couleur = (100, 100, 100)
             case "quarantaine":
                 couleur = (0, 0, 255)
             case _:
-                couleur = (255, 255, 255)
+                couleur = (0, 0, 0)
         core.Draw.circle(couleur, self.body.position, self.body.size)
 
 
